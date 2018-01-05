@@ -1,5 +1,7 @@
-# NativeCrashHandler
+[![Release](https://jitpack.io/v/User/Repo.svg)]
+(https://jitpack.io/#User/libCrashlyticsMonitor)
 
-For the most part an unmodified fork of https://github.com/SalomonBrys/__deprecated__Native-Crash-Handler
+# LibCrashlyticsMonitor
 
+A very simple JNI / Native hook for integrating projects with CrashlyticsNdk
 
