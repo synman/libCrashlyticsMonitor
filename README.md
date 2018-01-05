@@ -4,3 +4,10 @@
 # LibCrashlyticsMonitor
 
 A very simple JNI / Native hook for integrating projects with CrashlyticsNdk
+
+Example:
+
+        crashlyticsMonitor = new CrashlyticsMonitor();
+        crashlyticsMonitor.initialize(DEVICE_ID);
+        
+        crashlyticsMonitor.setEmailNameAndPicture(emailAddress, displayName, pictureUrl);
