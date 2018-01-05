@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "F:\\Android\\StudioProjects\\libCrashlyticsMonitor\\Android.mk",
+    "F:\\Android\\StudioProjects\\libCrashlyticsMonitor\\Application.mk"
+  ],
+  "cleanCommands": [
+    "F:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\Android\\StudioProjects\\libCrashlyticsMonitor\\Android.mk NDK_APPLICATION_MK\u003dF:\\Android\\StudioProjects\\libCrashlyticsMonitor\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dF:/Android/StudioProjects/libCrashlyticsMonitor/build/intermediates/ndkBuild/releaseProd/obj NDK_LIBS_OUT\u003dF:\\Android\\StudioProjects\\libCrashlyticsMonitor\\build\\intermediates\\ndkBuild\\releaseProd\\lib clean"
+  ],
+  "libraries": {
+    "crashlytics_monitor-releaseProd-x86": {
+      "buildCommand": "F:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\Android\\StudioProjects\\libCrashlyticsMonitor\\Android.mk NDK_APPLICATION_MK\u003dF:\\Android\\StudioProjects\\libCrashlyticsMonitor\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dF:/Android/StudioProjects/libCrashlyticsMonitor/build/intermediates/ndkBuild/releaseProd/obj NDK_LIBS_OUT\u003dF:\\Android\\StudioProjects\\libCrashlyticsMonitor\\build\\intermediates\\ndkBuild\\releaseProd\\lib F:/Android/StudioProjects/libCrashlyticsMonitor/build/intermediates/ndkBuild/releaseProd/obj/local/x86/libcrashlytics_monitor.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "crashlytics_monitor",
+      "files": [
+        {
+          "src": "F:\\Android\\StudioProjects\\libCrashlyticsMonitor\\src\\main\\jni\\CrashlyticsMonitor.cpp",
+          "flags": "\"-gcc-toolchain\" \"F:/Android/sdk/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-Isrc/main/jni\" \"-Isrc/release/jni\" \"-IF:/Android/sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\" \"-IF:/Android/sdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include\" \"-IF:/Android/StudioProjects/libCrashlyticsMonitor\" \"-DANDROID\" \"-D__ANDROID_API__\u003d17\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-frtti\" \"--sysroot\" \"F:/Android/sdk/ndk-bundle/build//../sysroot\" \"-isystem\" \"F:/Android/sdk/ndk-bundle/build//../sysroot/usr/include/i686-linux-android\""
+        }
+      ],
+      "output": "F:\\Android\\StudioProjects\\libCrashlyticsMonitor\\build\\intermediates\\ndkBuild\\releaseProd\\obj\\local\\x86\\libcrashlytics_monitor.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cppCompilerExecutable": "F:\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
