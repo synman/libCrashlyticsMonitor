@@ -13,6 +13,11 @@ Example:
         anrWatchDog.setTries(3);
         anrWatchDog.setANRListener(new CrashListener());
         anrWatchDog.setReportMainThreadOnly();
+       
+        anrWatchDog.start();
+        
+        anrTrace = FirebasePerformance.getInstance().newTrace("anr_watch_dog");
+        anrTrace.start();
     }
     
     private class CrashListener implements ANRWatchDog.ANRListener {
