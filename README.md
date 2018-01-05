@@ -1,5 +1,5 @@
-[![Release](https://jitpack.io/v/User/Repo.svg)]
-(https://jitpack.io/#User/libCrashlyticsMonitor)
+[![Release](https://jitpack.io/v/synman/libCrashlyticsMonitor.svg)]
+(https://jitpack.io/synman/libCrashlyticsMonitor)
 
 # LibCrashlyticsMonitor
 
