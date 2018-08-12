@@ -24,7 +24,7 @@ android {
         ndk {
             moduleName "crashlytics_monitor"
             stl "stlport_shared"
-            abiFilters 'armeabi', 'armeabi-v7a', 'mips', 'x86', 'x86_64', 'arm64-v8a'
+            abiFilters 'armeabi-v7a', 'x86', 'x86_64', 'arm64-v8a'
             ldLibs "log"
         }
     }
